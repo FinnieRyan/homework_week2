@@ -1,0 +1,26 @@
+.movie-tile {
+    display: flex;
+    margin-bottom: 0.1rem;
+  }
+  
+  .movie-tile ul {
+    width: 100%;
+    padding: 1rem;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  
+  .movie-tile:nth-child(even) {
+    background-color: #efefef;
+  }
+  
+  .movie-tile:nth-child(odd) {
+    background-color: #ddd;
+  }
+  
+  .movie-tile > img {
+    width: 100px;
+  } 

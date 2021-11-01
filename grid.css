@@ -1,0 +1,14 @@
+article {
+    grid-area: article;
+  }
+  
+  aside {
+    grid-area: aside;
+  }
+  
+  main {
+    display: grid;
+    grid-template-areas:
+      "article aside";
+      grid-template-columns: 2fr 1fr;
+  } 

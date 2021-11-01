@@ -1,0 +1,45 @@
+header {
+    background-color: gold;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  header > h1 {
+    background-color: white;
+    color: gold;
+    padding: 1rem;
+    border-radius: 0.6rem;
+    margin-left: 1rem;
+  }
+  
+  .nav-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  header form {
+    margin-right: 0.5rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  header form > select, input {
+    margin-right: 0.5rem;
+  }
+  
+  header nav > ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  header nav > ul > li {
+    margin-right: 1rem;
+  }
+  
+  header nav a {
+    color: white;
+    text-decoration: none;
+  }

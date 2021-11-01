@@ -1,0 +1,13 @@
+#genre-list ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  #genre-list a {
+    color: darkslateblue;
+  }
+  
+  hr {
+    margin: 1rem 0;
+    border: 1px dashed darkslateblue;
+  }
